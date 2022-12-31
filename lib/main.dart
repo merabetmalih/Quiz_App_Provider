@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:tp01_exo02/questions_state.dart';
@@ -7,7 +5,7 @@ import 'package:tp01_exo02/questions_state.dart';
 import 'question.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     title: "Quiz app",
     home: MyApp(),
   ));
